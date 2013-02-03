@@ -1,0 +1,15 @@
+# Ignore bin folder
+bin/
+
+# Private files
+cert.pem
+key.pem
+request.log
+config.json.example
+examples/hostname_record.sh.private
+
+# vim files
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist

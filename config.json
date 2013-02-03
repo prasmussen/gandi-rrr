@@ -1,0 +1,19 @@
+{
+    "listen": ":4430",
+    "logfile": "request.log",
+    "testing": false,
+
+    "tls": {
+        "certfile": "cert.pem",
+        "keyfile": "key.pem"
+    },
+
+    "tokens": [
+        {
+            "id": "foobarbaz",
+            "domain": "bazqux.com",
+            "type": "A",
+            "ttl": 900
+        }
+    ]
+}
